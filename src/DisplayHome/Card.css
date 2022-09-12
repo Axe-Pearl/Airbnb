@@ -27,16 +27,19 @@
     padding: 20px;
     padding-top: 20px;
     border: 1;
+    text-decoration: none;
+    line-height: 0.5;
   }
 
-  .card__info > h2 {
+  .card__info > h3 {
     font-size: 18px;
     font-weight: 600;
   }
   
-  .card__info > h4 {
+  .card__info > p {
     font-size: 14px;
     font-weight: 300;
     margin-top: 8px;
     margin-bottom: 8px;
+    line-height: 1;
   } 

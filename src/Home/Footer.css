@@ -1,11 +1,37 @@
-.footer {
+.footer{
+    height: 400px;
+    width: 100%;
     border-top: 1px solid lightgray;
-    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 30px;
+    color:#757575;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    margin: 40px;
+    margin-left: 200px;
+
+}
+.col{
+    color:#757575;
+}
+.footerList{
+    list-style-type: none;
+    text-align: left;
+}
+li{
+    font-size: 12px;
+    line-height: 30px;
+}
+
+footerlast {
     background-color: #f7f7f7;
     text-align: center;
 }
 
-.footer > p {
+.footerlast > p {
     padding: 5px;
     font-size: 14px;
 }

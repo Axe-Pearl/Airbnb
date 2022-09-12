@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
+    <>
     <div className='header'>
     <Link to='/'>
         <img
@@ -28,6 +29,8 @@ function Header() {
         <Avatar />
     </div>
 </div>
+<div style = {{borderTop:"0.5px lightgrey solid", height:"0px"}}></div>
+</>
   )
 }
 
