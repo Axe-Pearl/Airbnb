@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Footer from '../Home/Footer';
 import Header from "../Home/Header";
 import "./Details.css"
+import Reserve from './Reserve';
 
 function Details() {
   const location = useLocation();
@@ -19,6 +20,7 @@ function Details() {
         <img src = {propt.imgUrl} className = "main-img"></img>
         <br /><br />
         <h2>The Entire Villa hosted by {propt.hostedby}</h2>
+        <Reserve data = {propt} />
       </div>
       <div className='photoGrid'>
            {

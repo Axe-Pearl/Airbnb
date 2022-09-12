@@ -20,7 +20,7 @@ function Login() {
     setUser(res.profileObj);
     navigate("/",{state:{payload: user}});
     alert(
-      `Logged in successfully welcome ${res.profileObj.name} 😍. \n See console for full profile object.`
+      `Logged in successfully welcome ${res.profileObj.name}`
     );
     refreshTokenSetup(res);
   };
@@ -34,14 +34,16 @@ function Login() {
 
   return (
     <div>
+      <h1>Login Here</h1>
       <GoogleLogin
         clientId={clientId}
-        buttonText="Login"
+        buttonText="Sign in with Google"
         onSuccess={onSuccess}
         onFailure={onFailure}
         cookiePolicy={'single_host_origin'}
         style={{ marginTop: '100px' }}
         isSignedIn={true}
+
       />
     </div>
   );
