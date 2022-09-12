@@ -10,7 +10,7 @@ const Properties =  [
         "description":"",
         "hostedby":"Avani Malhotra",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "price": "10,125"
     },
     {
@@ -24,7 +24,7 @@ const Properties =  [
         "description":"",
         "hostedby":"Emy Ken",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "price": "13,000"
     },
    {
@@ -38,7 +38,7 @@ const Properties =  [
         "description":"",
         "hostedby":"Pranav Singh",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "price": "25646.56"
     },
     {
@@ -52,7 +52,7 @@ const Properties =  [
         "description":"",
         "hostedby":"Anurag Nema",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "price": "30000"
     },
     {
@@ -66,7 +66,7 @@ const Properties =  [
         "description":"",
         "hostedby":"Krishna Vasudev",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "price": "45041.91"
      },
     {
@@ -80,7 +80,7 @@ const Properties =  [
         "description":"",
         "hostedby":"Coco",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "price": "48039.23"
     },
     {
@@ -94,7 +94,7 @@ const Properties =  [
         "description":"",
         "hostedby":"Aman",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "price": "69818.86"
     },
     {
@@ -108,13 +108,13 @@ const Properties =  [
         "description":"",
         "hostedby":"Gopal Yadav",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "allImgs":"",
         "title":"",
         "description":"",
         "hostedby":"",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "price": "5434"
     },
     {
@@ -128,7 +128,7 @@ const Properties =  [
         "description":"",
         "hostedby":"",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "price": "6733.61"
     },
     {
@@ -142,7 +142,7 @@ const Properties =  [
         "description":"",
         "hostedby":"Seema Kenz",
         "reviewscount":0,
-        "reviews":"",
+        "reviews":[],
         "price": "35932.48"
     }
 ]

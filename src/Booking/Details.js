@@ -2,6 +2,7 @@ import React from 'react'
 import { useLocation } from "react-router-dom";
 import Footer from '../Home/Footer';
 import Header from "../Home/Header";
+import Review from '../Review/Review';
 import "./Details.css"
 import Reserve from './Reserve';
 
@@ -21,6 +22,7 @@ function Details() {
         <br /><br />
         <h2>The Entire Villa hosted by {propt.hostedby}</h2>
         <Reserve data = {propt} />
+        <Review revs = {propt} />
       </div>
       <div className='photoGrid'>
            {
