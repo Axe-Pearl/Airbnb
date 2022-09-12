@@ -23,7 +23,7 @@ function Details() {
       <div className='photoGrid'>
            {
             photos.map((photo, index) =>{
-              const radius = (index == photos.length-1 || index == 1) ? 15 : 0;
+              const radius = (index === photos.length-1 || index === 1) ? 15 : 0;
               return (
                  <img className ="photos" src = {photo} style = {{borderTopRightRadius:`${radius}px`,borderBottomRightRadius:`${radius}px`}}/>
               )}
