@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const [opened,setOpened] = useState(false);
-  const [user, setUser] = useState(null);
   const currentUser = JSON.parse(localStorage.getItem('user'));
   console.log("CUrrent user: ",currentUser);
   const handleOpener = ()=>{
@@ -27,7 +26,7 @@ function Header() {
         <img
             className="icon"
             src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
-            alt=""
+            alt="airbnb-icon"
         />
     </Link>
     <div className='searchContainer'>
@@ -38,7 +37,7 @@ function Header() {
     <div className='header__right'>
         <p>Become a host</p>
         <LanguageIcon />
-        {currentUser ? <img className ="profilepic" src={currentUser.imageUrl} onClick = {handleOpener} />:<Avatar className ="avatar" onClick = {handleOpener} />}
+        {currentUser ? <img alt =""className ="profilepic" src={currentUser.imageUrl} onClick = {handleOpener} />:<Avatar className ="avatar" onClick = {handleOpener} />}
             <div className="options">
                 {currentUser ? <span>Welcome {currentUser.name}</span>:<Link to = "/signin" className='links'><span>Login</span></Link>}
                 {currentUser ? <Logout />:""}

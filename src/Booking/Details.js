@@ -18,7 +18,7 @@ function Details() {
     <div className='parentContainer'>
       <div className='details'>
         <h2>{propt.title}</h2>
-        <img src = {propt.imgUrl} className = "main-img"></img>
+        <img alt ="" src = {propt.imgUrl} className = "main-img"></img>
         <br /><br />
         <h2>The Entire Villa hosted by {propt.hostedby}</h2>
         <Reserve data = {propt} />
@@ -29,7 +29,7 @@ function Details() {
             photos.map((photo, index) =>{
               const radius = (index === photos.length-1 || index === 1) ? 15 : 0;
               return (
-                 <img className ="photos" src = {photo} style = {{borderTopRightRadius:`${radius}px`,borderBottomRightRadius:`${radius}px`}}/>
+                 <img alt="" className ="photos" src = {photo} style = {{borderTopRightRadius:`${radius}px`,borderBottomRightRadius:`${radius}px`}}/>
               )}
           )}
         </div>

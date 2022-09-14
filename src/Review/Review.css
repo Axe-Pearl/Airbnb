@@ -1,7 +1,6 @@
 .feedback{
     display: flex;
     flex-direction: column;
-    justify-content: start;
 }
 .Areview{
     display: flex;

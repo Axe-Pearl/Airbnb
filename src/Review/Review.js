@@ -14,7 +14,7 @@ function Review({revs}) {
   const handleSubmit =()=>{
     const isLoggedIn = localStorage.getItem("user");
     console.log("islogged",isLoggedIn);
-    if(isLoggedIn == "null")  navigate("/signin");
+    if(isLoggedIn === "null")  navigate("/signin");
    console.log("rev",revs.reviews);
    if(review!==""){
     const newArr = [...revs.reviews, ...all];

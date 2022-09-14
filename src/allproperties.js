@@ -1,5 +1,6 @@
 const Properties =  [
     {
+        "key": 1,
         "id": 1,
         "location": "Mahabaleshwar, Tamil Nadu",
         "special": "Good Weather",
@@ -14,6 +15,7 @@ const Properties =  [
         "price": "10,125"
     },
     {
+        "key":2,
         "id": 2,
         "location": "Nashik, India",
         "special": "id 2",
@@ -28,6 +30,7 @@ const Properties =  [
         "price": "13,000"
     },
    {
+        "key":3,
         "id": 3,
         "location": "ShriNagar, India",
         "special": "id 3",
@@ -42,6 +45,7 @@ const Properties =  [
         "price": "25646.56"
     },
     {
+        "key":4,
         "id": 4,
         "location": "Malana, HP",
         "special": "id 4",
@@ -56,6 +60,7 @@ const Properties =  [
         "price": "30000"
     },
     {
+        "key":5,
         "id": 5,
         "location": "Vridavan",
         "special": "Truelove",
@@ -70,6 +75,7 @@ const Properties =  [
         "price": "45041.91"
      },
     {
+        "key":6,
         "id": 6,
         "location": "Meghalaya, India",
         "special": "Stennett",
@@ -84,6 +90,7 @@ const Properties =  [
         "price": "48039.23"
     },
     {
+        "key":7,
         "id": 7,
         "location": "Lonavale, India",
         "special": "Lanfear",
@@ -98,6 +105,7 @@ const Properties =  [
         "price": "69818.86"
     },
     {
+        "key":8,
         "id": 8,
         "location": "Gokul, India",
         "special": "Bruckshaw",
@@ -118,6 +126,7 @@ const Properties =  [
         "price": "5434"
     },
     {
+        "key":9,
         "id": 9,
         "location": "Bhugwaara, India",
         "special": "Izsak",
@@ -132,6 +141,7 @@ const Properties =  [
         "price": "6733.61"
     },
     {
+        "key":10,
         "id": 10,
         "location": "Gangtok, Sikkim",
         "special": "Matveiko",
